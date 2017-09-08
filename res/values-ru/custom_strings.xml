@@ -453,4 +453,7 @@
     <string name="chooser_activity_blacklist_cat_title">Черный список</string>
     <string name="chooser_activity_blacklist_pref_title">Добавить приложение</string>
     <string name="chooser_activity_blacklist_pref_summary">Нажмите здесь, чтобы добавить приложение; нажмите на добавленное приложение, чтобы убрать его из списка</string> 
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Редактирование иконок</string>
 </resources>
