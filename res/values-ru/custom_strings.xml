@@ -29,6 +29,8 @@
     <string name="abc_battery_light_settings">Индикация батареи</string>
     <string name="abc_notification_light_settings">Индикация уведомлений</string>
     <string name="recent_settings_title">Недавние приложения</string>
+    <string name="abc_aosp_gestures_title">Настройки жестов</string>
+
     <!-- Color Picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
     <string name="press_color_to_apply">Нажмите на цвет, чтобы применить</string>
@@ -42,7 +44,9 @@
     <string name="volume_keys_control_media_stream_summary">Кнопки громкости регулируют громкость мультимедиа</string>
 
     <string name="status_bar_quick_qs_pulldown">Быстрый доступ</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Правый угол строки состояния открывает панель быстрых настроек</string>
+    <string name="quick_pulldown_none">Отключен</string>
+    <string name="quick_pulldown_right">Правый часть строки состояния открывает панель быстрых настроек</string>
+    <string name="quick_pulldown_left">Левая часть строки состояния открывает панель быстрых настроек</string>
 
     <string name="volume_rocker_music_controls_title">Управление плеером</string>
     <string name="volume_rocker_music_controls_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
@@ -317,6 +321,13 @@
     <string name="pulse_auto_color_summary">Цвет зависит от обложки трека. Переопределяет прозрачность «Лава Лампы» и сплошных линий.</string>
 
     <!-- Pulse config -->
+    <string name="pulse_blacklist_title">Черный список приложений</string>
+    <string name="pulse_blacklist_summary">Приложения, которые будут игнорироваться Pulse</string>
+    <string name="pulse_blacklist_apps_cat_title">Черный список</string>
+    <string name="pulse_blacklist_apps_title">Черный список приложений</string>
+    <string name="pulse_blacklist_apps_summary">Приложения, которые не будут отображаться в панели</string>
+    <string name="pulse_blacklist_add_apps_title">Добавить приложение</string>
+    <string name="pulse_blacklist_add_apps_summary">Нажмите здесь чтобы добавить, нажмите по добавленному приложению чтобы убрать</string>
     <string name="pulse_custom_dimen">Ширина</string>
     <string name="pulse_custom_div">Интервал</string>
     <string name="pulse_filled_block_size">Размер блоков</string>
@@ -377,9 +388,12 @@
     <string name="smartbar_double_tap_sleep_summary">Дважды коснитесь панели навигации для перевода устройства в спящий режим</string>
 
     <string name="notification_sound_vib_screen_on_title">Звук и вибрация уведомлений при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию уведомлений при включенном экране</string>
 
-    <string name="force_ambient_for_media_pref_title">Функция «Now Playing»</string>
-    <string name="force_ambient_for_media_pref_summary">Информация о текущем треке в режиме «Ambient Display»</string>
+    <string name="force_ambient_for_media_pref_title">Ambient Music Ticker</string>
+    <string name="force_ambient_for_media_pref_summary">Информация о текущем треке в режиме Ambient Display</string>
+    <string name="ambient_ticker_footer">Функция позволяет отображать информацию о текущем треке на экране блокировки используя «Ambient Display».\n\nВы можете выбрать обычный или упрощенный режим отображния. Эта функция использует «Ambient Display» и так или иначе зависит от него. Она может быть вызвана без его использования с помощью принудительного режима.\n\nВ обычном режиме на экране отображаются часы, дата и информация о треке.\n\nВ упрощенном режиме часы и дата скрыты, информация о треке отображается по центру экрана.</string>
+    <string name="force_ambient_for_media_title">Включить</string>
 
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Снизить частоту звуков уведомлений</string>
@@ -437,9 +451,12 @@
     <string name="battery_style_big_dotted_circle">Большой пунктирный круг</string>
     <string name="battery_style_text">Текст</string>
     <string name="battery_style_hidden">Не отображать</string>
+    <string name="battery_percent_hidden">Не отображать</string>
     <string name="show_battery_percent_title">Процент заряда батареи</string>
     <string name="show_battery_percent_summary">Отображать процент заряда батареи рядом со значком</string>
     <string name="battery_style_category_title">Заряд батареи</string>
+    <string name="battery_percent_outside">Снаружи иконки</string>
+    <string name="battery_percent_inside">Внутри иконки</string>
 
     <string name="incall_notifications_vibrate">Менее надоедливые уведомления во время вызова</string>
     <string name="incall_notifications_vibrate_summary">Вибрация вместо звукового сигнала для уведомлений во время вызова</string>
